@@ -1,0 +1,17 @@
+/* NoFound */
+.ab_NoFound {
+  width: 100%;
+  height: calc(100vh - 61px - 178px);
+  background-color: var(--color-b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ab_NoFound h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-transform: capitalize;
+  color: red;
+}
+/* NoFound */

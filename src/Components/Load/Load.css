@@ -1,0 +1,10 @@
+/* Load */
+.ab_load {
+  padding: 0;
+  background-color: var(--color-b);
+  height: calc(100vh - 61px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Load */

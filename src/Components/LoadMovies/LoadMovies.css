@@ -1,0 +1,38 @@
+/* loadMovies */
+.ab_loadMovies {
+  padding: 20px 0px;
+  background-color: var(--color-b);
+}
+.ab_loadMovies .ctn {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 40px;
+}
+.ab_loadMovies .ctn .box {
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.ab_loadMovies .ctn .box img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+.ab_loadMovies .ctn .box .cover {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loadMovies 1s linear infinite;
+}
+@keyframes loadMovies {
+  0%, 100% {
+    background-color: black;
+  } 50% {
+    background-color: rgb(39, 39, 39);
+  }
+}
+/* loadMovies */
